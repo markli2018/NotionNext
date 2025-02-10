@@ -14,10 +14,10 @@ const BLOG = {
   APPEARANCE: process.env.NEXT_PUBLIC_APPEARANCE || 'light', // ['light', 'dark', 'auto'], // light 日间模式 ， dark夜间模式， auto根据时间和主题自动夜间模式
   APPEARANCE_DARK_TIME: process.env.NEXT_PUBLIC_APPEARANCE_DARK_TIME || [18, 6], // 夜间模式起至时间，false时关闭根据时间自动切换夜间模式
 
-  AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || 'NotionNext', // 您的昵称 例如 tangly1024
-  BIO: process.env.NEXT_PUBLIC_BIO || '一个普通的干饭人🍚', // 作者简介
+  AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || '小昂', // 您的昵称 例如 tangly1024
+  BIO: process.env.NEXT_PUBLIC_BIO || '嘿，大家好！我是 小昂，欢迎来到我的分享站！这里没有复杂的套路，只有我精心整理的各类资源和福利。无论你在找高清电影、热门美剧、必备软件，还是一些新奇有趣的电子书、课程分享，甚至BT种子和磁力链接，你都能在这里轻松找到。每一项资源，我都亲自挑选、整理，确保你能够方便、快捷地获取所需。除了这些常见资源，我还会分享一些独特的福利、折扣和优惠，带给你不一样的惊喜。最酷的是，这里不仅有你需要的下载和安装教程，还会偶尔放送一些互联网的干货资讯，让你第一时间掌握最新动态。总之，小昂就是这样一个地方：资源丰富，福利不断，随时都有新发现，随时有惊喜等着你。来吧，和我一起在这个分享的世界里，发现更多有趣、实用的东西，享受属于我们的“云”生活。', // 作者简介
   LINK: process.env.NEXT_PUBLIC_LINK || 'https://tangly1024.com', // 网站地址
-  KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'Notion, 博客', // 网站关键词 英文逗号隔开
+  KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || '小昂网站提供高清电影、软件、电子书、课程、BT种子和福利资源的分享与下载，专注于为用户提供实用的互联网资源和福利。', // 网站关键词 英文逗号隔开
   BLOG_FAVICON: process.env.NEXT_PUBLIC_FAVICON || '/favicon.ico', // blog favicon 配置, 默认使用 /public/favicon.ico，支持在线图片，如 https://img.imesong.com/favicon.png
   BEI_AN: process.env.NEXT_PUBLIC_BEI_AN || '', // 备案号 闽ICP备XXXXXX
   BEI_AN_LINK: process.env.NEXT_PUBLIC_BEI_AN_LINK || 'https://beian.miit.gov.cn/', // 备案查询链接，如果用了萌备等备案请在这里填写
