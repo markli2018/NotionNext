@@ -38,7 +38,8 @@ const Footer = () => {
               className='underline font-semibold dark:text-gray-300 '>
               {siteConfig('AUTHOR')}
             </a>
-            {BIO && <span className='mx-1'> | {BIO}</span>}
+              {/* 这里是您修改的底部 BIO */}
+      <span className='mx-1'> | 自定义的底部BIO文本：欢迎来到我的博客！</span>
           </div>
         </div>
 
