@@ -36,7 +36,7 @@ const Footer = () => {
             <a
               href={'/about'}
               className='underline font-semibold dark:text-gray-300 '>
-              {siteConfig('小昂')}
+              {siteConfig('AUTHOR')}
             </a>
             {BIO && <span className='mx-1'> | {BIO}</span>}
           </div>
